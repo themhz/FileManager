@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jpcof/ai+7bF7ZObUIJ9twXAw3InhyBa3QPJyl+v6t5hp3/m40I4wXU9CkD8iJT1b1FZnw1YwHxRnx1h7ulOOA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\themis\\source\\repos\\FileManager\\FileManager\\FileManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\themis\\.nuget\\packages\\google.apis\\1.59.0\\google.apis.1.59.0.nupkg.sha512",
+    "C:\\Users\\themis\\.nuget\\packages\\google.apis.auth\\1.59.0\\google.apis.auth.1.59.0.nupkg.sha512",
+    "C:\\Users\\themis\\.nuget\\packages\\google.apis.core\\1.59.0\\google.apis.core.1.59.0.nupkg.sha512",
+    "C:\\Users\\themis\\.nuget\\packages\\google.apis.drive.v3\\1.59.0.2922\\google.apis.drive.v3.1.59.0.2922.nupkg.sha512",
+    "C:\\Users\\themis\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
