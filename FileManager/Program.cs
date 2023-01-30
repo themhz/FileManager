@@ -17,20 +17,24 @@ namespace FileManager
         {
             var uploader = new GoogleDriveUploader();
 
-            //// Upload a file to Google Drive.
-            
-
-            //Console.WriteLine("File uploaded successfully!");
-            //Console.ReadLine();
-
+            // Upload a file to Google Drive.
+            ZipManager zipManager = new ZipManager();
+            Console.WriteLine("Starting Zip");
+            zipManager.ZipDirectory(@"D:\ProjNet2022\applications\Building.EnergyProject\EnergyBuilding.UI\data\reports\EnergyReport\", @"D:\uploads\test.zip");
+            Console.WriteLine("Zip Completed");
             var FileManager = new FileManager();
-            foreach(var file in FileManager.ListFiles(@"C:\Users\themis\Downloads"))
+            Console.WriteLine("Starting upload");
+            foreach (var file in FileManager.ListFiles(@"D:\uploads"))
             {
-                //Console.WriteLine(file.Split(@"\")[file.Split(@"\").Length-1]);
+                Console.WriteLine("Uploading " + file);
                 string fileName = file.Split(@"\")[file.Split(@"\").Length - 1];
                 uploader.UploadFile(file, fileName, "1BngNlDqGa-rz3DBsd_MJYpONMRBd4XIp");
+                Console.WriteLine("finished ");
             }
+            Console.WriteLine("All uploading completed ");
             Console.ReadLine();
+
+            
         }
           
     }
