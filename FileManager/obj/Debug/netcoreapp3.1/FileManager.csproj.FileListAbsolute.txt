@@ -19,3 +19,5 @@ C:\Users\themis\source\repos\FileManager\FileManager\obj\Debug\netcoreapp3.1\Fil
 C:\Users\themis\source\repos\FileManager\FileManager\obj\Debug\netcoreapp3.1\FileManager.dll
 C:\Users\themis\source\repos\FileManager\FileManager\obj\Debug\netcoreapp3.1\FileManager.pdb
 C:\Users\themis\source\repos\FileManager\FileManager\obj\Debug\netcoreapp3.1\FileManager.genruntimeconfig.cache
+C:\Users\themhz\Source\Repos\FileManager\FileManager\obj\Debug\netcoreapp3.1\FileManager.dll
+C:\Users\themhz\Source\Repos\FileManager\FileManager\obj\Debug\netcoreapp3.1\FileManager.pdb

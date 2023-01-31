@@ -15,6 +15,19 @@ namespace FileManager
        
         static void Main(string[] args)
         {
+            
+
+            
+        }
+
+        static void exportMySqlDatabase()
+        {
+            var db = new DataBaseExporter();
+        }
+
+        static void backupToGoogleDrive()
+        {
+
             var uploader = new GoogleDriveUploader();
 
             // Upload a file to Google Drive.
@@ -33,8 +46,6 @@ namespace FileManager
             }
             Console.WriteLine("All uploading completed ");
             Console.ReadLine();
-
-            
         }
           
     }
